@@ -1,0 +1,28 @@
+Source: adapta-gtk-theme
+Section: x11
+Priority: optional
+Maintainer: Tista <tista.gma500@gmail.com>
+Uploaders:
+ Tista <tista.gma500@gmail.com>,
+ Boyuan Yang <073plan@gmail.com>,
+Build-Depends:
+ debhelper (>= 10),
+ inkscape,
+ libglib2.0-dev (>= 2.48.0),
+ libxml2-utils,
+ pkg-config,
+ ruby-bundler (>= 1.11.2),
+ ruby-sass (>= 3.4.21),
+Standards-Version: 3.9.8
+Homepage: https://github.com/tista500/Adapta
+
+Package: adapta-gtk-theme
+Architecture: all
+Depends:
+ gtk2-engines-murrine (>= 0.98.1),
+ gtk2-engines-pixbuf (>= 2.24.30),
+ libgtk-3-common (>= 3.18.9),
+ libgtk2.0-common (>= 2.24.30),
+Description: Adapta Gtk+ Theme
+ An adaptive Gtk+ theme based on Material Design Guidelines.
+ It supports Gtk 3.18.x, 3.20.x and 3.22.x.
