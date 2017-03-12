@@ -15,5 +15,5 @@ override_dh_auto_configure:
 	                     --enable-chrome \
 	                     --enable-plank
 
-override_dh_auto_bild:
+override_dh_auto_build:
 	dh_auto_build --max-parallel=1

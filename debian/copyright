@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Adapta
-Source: https://github.com/tista500/Adapta
+Source: https://github.com/adapta-project/adapta-gtk-theme
 
 Files: *
 Copyright: Copyright 2016 Tista <tista.gma500@gmail.com>
