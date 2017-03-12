@@ -14,3 +14,6 @@ override_dh_auto_configure:
 	                     --disable-gtk_next \
 	                     --enable-chrome \
 	                     --enable-plank
+
+override_dh_auto_bild:
+	dh_auto_build --max-parallel=1
